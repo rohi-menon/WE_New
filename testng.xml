@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SampleTest">
+
+    <test verbose="2" preserve-order="true" name="TestIndigo">
+    <parameter name="browser" value="chrome"></parameter>
+        <parameter name="URL" value="https://goindigo.in"></parameter>
+        <classes>
+
+        <class name="TestCases.SampleTests"> </class>
+        </classes>
+    </test>
+</suite>
